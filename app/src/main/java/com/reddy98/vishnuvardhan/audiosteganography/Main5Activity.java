@@ -22,12 +22,14 @@ public class Main5Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(Main5Activity.this,Main6Activity.class);
+                startActivity(intent);
             }
         });
         ext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(Main5Activity.this,Main7Activity.class);
+                startActivity(intent);
             }
         });
     }

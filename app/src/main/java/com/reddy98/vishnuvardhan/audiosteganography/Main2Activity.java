@@ -30,12 +30,14 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(Main2Activity.this,Main4Activity.class);
+                startActivity(intent);
             }
         });
         stego.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(Main2Activity.this,Main5Activity.class);
+                startActivity(intent);
             }
         });
     }

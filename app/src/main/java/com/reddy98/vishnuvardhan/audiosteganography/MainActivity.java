@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void validate(String userName, String userPassword)
     {
-        if((userName.equals("Audio")) && (userPassword.equals("steganography")))
+        if((userName.equals("Audio")) && (userPassword.equals("stego")))
         {
             Intent intent = new Intent(MainActivity.this, Main2Activity.class);
             startActivity(intent);

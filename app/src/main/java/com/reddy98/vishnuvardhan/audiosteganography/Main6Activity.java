@@ -74,6 +74,7 @@ public class Main6Activity extends AppCompatActivity {
             public void onClick(View v)
             {
                 Intent intent = new Intent(Main6Activity.this,Encryption.class);
+                startActivity(intent);
             }
         });
     }
